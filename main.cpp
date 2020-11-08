@@ -198,6 +198,8 @@ int main() {
     
     //(taskList[userInt - 1] == "Completed Task")
     while ((userInt <= 0) || (userInt > 6)|| (taskList[userInt - 1] == "Completed Task") )/* ERROR HERE */ {
+      cin.clear();    //clear input buffer if string is entered
+      cin.ignore(10,'\n');
       cout << "Please choose a valid task. ";
       userInt = 0;
       cin >> userInt;
