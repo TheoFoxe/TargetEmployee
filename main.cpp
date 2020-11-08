@@ -301,6 +301,7 @@ int main() {
     while ((decisionNumber != 1)&&(decisionNumber != 2)&&(decisionNumber != 3)) {
       cout << "Please enter 1, 2, or 3" << endl;
       cin >> decisionNumber;
+     
     }
 
     if (decisionNumber == 1) {
