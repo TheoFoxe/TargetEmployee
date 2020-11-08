@@ -229,6 +229,8 @@ int main() {
 
     cin >> decisionNumber;
     while ((decisionNumber != 1)&&(decisionNumber != 2)&&(decisionNumber != 3)) {
+      cin.clear();
+      cin.ignore(10,'\n');
       cout << "Please enter 1, 2, or 3" << endl;
       cin >> decisionNumber;
     }
@@ -387,6 +389,8 @@ int main() {
 
     cin >> decisionNumber;
     while ((decisionNumber != 1)&&(decisionNumber != 2)&&(decisionNumber != 3)) {
+      cin.clear();
+      cin.ignore(10,'\n');
       cout << "Please enter 1, 2, or 3" << endl;
       cin >> decisionNumber;
     }
@@ -452,6 +456,8 @@ int main() {
 
     cin >> decisionNumber;
     while ((decisionNumber != 1)&&(decisionNumber != 2)&&(decisionNumber != 3)) {
+      cin.clear();
+      cin.ignore(10,'\n');
       cout << "Please enter 1, 2, or 3" << endl;
       cin >> decisionNumber;
     }
@@ -521,6 +527,8 @@ int main() {
 
     cin >> decisionNumber;
     while ((decisionNumber != 1)&&(decisionNumber != 2)&&(decisionNumber != 3)) {
+      cin.clear();
+      cin.ignore(10,'\n');
       cout << "Please enter 1, 2, or 3" << endl;
       cin >> decisionNumber;
     }
@@ -598,6 +606,8 @@ int main() {
     
   cin >> decisionNumber;
     while ((decisionNumber != 1)&&(decisionNumber != 2)&&(decisionNumber != 3)) {
+      cin.clear();
+      cin.ignore(10,'\n');
       cout << "Please enter 1, 2, or 3" << endl;
       cin >> decisionNumber;
       
