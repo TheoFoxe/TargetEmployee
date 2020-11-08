@@ -199,8 +199,9 @@ int main() {
     //(taskList[userInt - 1] == "Completed Task")
     while ((userInt <= 0) || (userInt > 6)|| (taskList[userInt - 1] == "Completed Task") )/* ERROR HERE */ {
       cout << "Please choose a valid task. ";
+      userInt = 0;
       cin >> userInt;
-      userInt = 
+      
     }
     
     taskInt = userInt;
